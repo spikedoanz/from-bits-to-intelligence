@@ -2,7 +2,7 @@
 
 the ml stack is massive, and difficult to tinker with or extend
 
-can we get it down to [100,000 lines]((https://supaiku.com/from-bits-to-intelligence))?
+can we get it down to [100,000 lines](https://supaiku.com/from-bits-to-intelligence)?
 
 this repo contains an (wip) rough outline detailing how that might happen
 
