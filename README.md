@@ -1,6 +1,6 @@
 # from bits to intelligence
 
-the ml stack is massive, and difficult to tinker with or extend
+the ml stack is massive beyond human comprehension
 
 can we get it down to [100,000 lines](https://supaiku.com/from-bits-to-intelligence)?
 
