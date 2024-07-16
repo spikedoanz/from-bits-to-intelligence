@@ -23,38 +23,38 @@ here are some recommended materials for the difficult stuff
 
 ### 1. hardware
 
-compute: gpu/dsp style chip, (verilog, 1000)[^1] -- for massively parallel, scalable compute
+- compute: gpu/dsp style chip, (verilog, 1000)[^1] -- for massively parallel, scalable compute
 
-host: cpu style chip, verilog (verilog, 1500) -- for os, process management, communication and other traditional computing needs
+- host: cpu style chip, verilog (verilog, 1500) -- for os, process management, communication and other traditional computing needs
 
-memory: mmu (verilog, 1000)
+- memory: mmu (verilog, 1000)
 
-storage: sd card driver (verilog, 150) -- for simplicity, we can pretend an sd card is all we need for moving data
+- storage: sd card driver (verilog, 150) -- for simplicity, we can pretend an sd card is all we need for moving data
 
 ### 2. software
 
-c compiler (python, 2000)[^2] -- mostly to get python. needs parser, assembler, linker
+- c compiler (python, 2000)[^2] -- mostly to get python. needs parser, assembler, linker
 
-python runtime (c, 50000)[^3] -- mostly to get autograd, but can host the c compiler that it itself runs on
+- python runtime (c, 50000)[^3] -- mostly to get autograd, but can host the c compiler that it itself runs on
 
-os (c, 2500) 
+- os (c, 2500) 
 
-file system: fat (c, 300)
+- file system: fat (c, 300)
 
-init, shell, download, cat, editor (c, 500)
+- init, shell, download, cat, editor (c, 500)
 
 
 #### 3. tensors
 
-tensorlib: numpy-like (python, 500)
+- tensorlib: numpy-like (python, 500)
 
-autograd: (python, 5000)[^4]
+- autograd: (python, 5000)[^4]
 
 #### 4. machine learning
 
-data processing (500, python)
+- data processing (500, python)
 
-gpt 2 (500, python)
+- gpt 2 (500, python)
 
 
 ---
