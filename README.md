@@ -4,7 +4,7 @@ the ml stack is massive beyond human comprehension
 
 can we get it down to [100,000 lines](https://supaiku.com/from-bits-to-intelligence)?
 
-this repo contains an (wip) rough outline detailing how that might happen
+this repo contains an (wip) outline detailing how that might happen
 
 ---
 
