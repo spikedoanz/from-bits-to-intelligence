@@ -23,7 +23,7 @@ here are some recommended materials for the difficult stuff
 
 ### 1. hardware
 
-compute: gpu/dsp style chip, (verilog, 1000)[^5] -- for massively parallel, scalable compute
+compute: gpu/dsp style chip, (verilog, 1000)[^1] -- for massively parallel, scalable compute
 
 host: cpu style chip, verilog (verilog, 1500) -- for os, process management, communication and other traditional computing needs
 
@@ -33,9 +33,9 @@ storage: sd card driver (verilog, 150) -- for simplicity, we can pretend an sd c
 
 ### 2. software
 
-c compiler (python, 2000)[^6] -- mostly to get python. needs parser, assembler, linker
+c compiler (python, 2000)[^2] -- mostly to get python. needs parser, assembler, linker
 
-python runtime (c, 50000)[^7] -- mostly to get autograd, but can host the c compiler that it itself runs on
+python runtime (c, 50000)[^3] -- mostly to get autograd, but can host the c compiler that it itself runs on
 
 os (c, 2500) 
 
@@ -48,7 +48,7 @@ init, shell, download, cat, editor (c, 500)
 
 tensorlib: numpy-like (python, 500)
 
-autograd: (python, 5000)[^8]
+autograd: (python, 5000)[^4]
 
 #### 4. machine learning
 
