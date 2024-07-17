@@ -74,14 +74,13 @@ here are some recommended materials for the difficult stuff
     - use risc-v tools as your specification
     - port to verilog
     - simulate the verilog implementation using verilator
-    - ensure it can accept machine code and elf files
 
 2. gpu/dsp
    - similar to the cpu, but simpler, and more cores
    - implement basic vector operations
 
 3. memory management unit (mmu)
-   - implement virtual memory mapping
+   - virtual memory mapping
    - integrate with cpu and gpu designs
 
 4. storage (sd card driver)
@@ -130,8 +129,7 @@ here are some recommended materials for the difficult stuff
 11. autograd
     - written in python
     - start with scalar autograd, micrograd style
-    - then support vectors, then tensors
-    - combine with tensor library
+    - then vectors, then tensors
 
 12. actual machine learning
     - string parsing
@@ -141,7 +139,7 @@ here are some recommended materials for the difficult stuff
     - write adam 
     - write a feed forward network, train on mnist
     - attention, batchnorm, convolutions(?)
-    - integrate with the tensor library and autograd
+    - gpt 2
 
 [^1]: [tiny-gpu](https://github.com/adam-maj/tiny-gpu)
 
